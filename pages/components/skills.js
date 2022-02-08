@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div>
       <div className="font-bold">Technical Skills</div>
-      <hr className="pb-5 w-10" />
+      <hr className="pb-5 w-9" />
       <div className="flex flex-wrap">
         {skills.map((skill) => (
           <div className="font-bold text-cyan-500 pr-2">{skill}</div>

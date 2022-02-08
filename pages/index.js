@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from './components/header';
+import Projects from './components/projects';
 import Work from './components/work';
 import Education from './components/education';
 import Skills from './components/skills';
@@ -17,6 +18,9 @@ export default function Home() {
       <Header />
 
       <div className="mx-auto max-w-7xl pt-20 px-10">
+        <Divider />
+        <Projects />
+        <Divider />
         <Work />
         <Divider />
         <Education />

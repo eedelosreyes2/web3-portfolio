@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Diffusion Board Creator",
+      "dates": "May - Aug 2021",
+      "description": "Web app...",
+      "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
+      "url": ""
+    },
+    {
+      "id": 1,
+      "title": "Twitter React App v1.0",
+      "dates": "July - Sep 2020",
+      "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
+      "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
+      "url": "https://eedelosreyes2.github.io/twitter-react/"
+    }
+  ]
+}

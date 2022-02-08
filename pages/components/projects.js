@@ -1,25 +1,24 @@
-import { jobs } from '../clientData/work.json';
+import { projects } from '../clientData/projects.json';
 
-export default function Work() {
+export default function Projects() {
   return (
     <div>
-      <div className="font-bold">Work Experience</div>
+      <div className="font-bold">Web2 Projects</div>
       <hr className="pb-5 w-9" />
-      {jobs.map(({ id, company, title, dates, description, skills, url }) => (
-        <div className="pb-10">
+      {projects.map(({ id, title, dates, description, skills, url }) => (
+        <div key={id} className="pb-10">
           <div className="flex-column pb-2">
             <div className="flex justify-between items-end">
               <a
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-cyan-500"
+                className="font-bold text-2xl text-cyan-500"
               >
-                {company}
+                {title}
               </a>
               <div className="text-sm">{dates}</div>
             </div>
-            <div className="font-bold text-2xl">{title}</div>
           </div>
           <div className="mb-2">{description}</div>
           <div className="flex flex-wrap">
