@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from './components/header';
 import Work from './components/work';
 import Education from './components/education';
+import Skills from './components/skills';
 import Divider from './components/divider';
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
         <Work />
         <Divider />
         <Education />
+        <Divider />
+        <Skills />
         <Divider />
       </div>
     </div>

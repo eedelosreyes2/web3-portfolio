@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <div>
       <div className="font-bold">Education</div>
-      <hr className="pb-10 w-10" />
+      <hr className="pb-5 w-10" />
       <div className="flex justify-between items-end">
         <a
           href={education.url}

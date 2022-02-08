@@ -4,9 +4,9 @@ export default function Work() {
   return (
     <div>
       <div className="font-bold">Work Experience</div>
-      <hr className="pb-10 w-10" />
+      <hr className="pb-5 w-10" />
       {jobs.map((job) => (
-        <div className="pb-5">
+        <div className="pb-10">
           <div className="flex-column pb-2">
             <div className="flex justify-between items-end">
               <a

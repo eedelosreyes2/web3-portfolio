@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "company": "Robert Half",
+      "title": "Full Stack Engineer",
+      "time": "Nov 2020 - Present",
+      "description": "Lorem ipsum temp stuff",
+      "skills": [
+        "Javascript",
+        "Drupal",
+        "PHP",
+        "React",
+        "Postman",
+        "Fullstack",
+        "Production"
+      ],
+      "url": "https://boonoob.com/"
+    },
+    {
       "company": "Boonoob",
       "title": "Software Engineer",
       "time": "Jun - Nov 2020",
