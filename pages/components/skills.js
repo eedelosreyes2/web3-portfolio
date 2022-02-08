@@ -7,7 +7,7 @@ export default function Skills() {
       <hr className="pb-5 w-9" />
       <div className="flex flex-wrap">
         {skills.map((skill) => (
-          <div key={skill} className="font-bold text-cyan-500 pr-2">
+          <div key={skill} className="font-bold text-violet-600 pr-2">
             {skill}
           </div>
         ))}
