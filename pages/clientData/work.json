@@ -14,7 +14,8 @@
         "Postman",
         "Backend",
         "Production"
-      ]
+      ],
+      "url": "https://boonoob.com/"
     },
     {
       "company": "Fanmire",
@@ -32,7 +33,8 @@
         "Postman",
         "Fullstack",
         "UX/UI Design"
-      ]
+      ],
+      "url": "https://fanmire.com/"
     },
     {
       "company": "Thinq.tv",
@@ -46,7 +48,8 @@
         "Heroku",
         "Frontend",
         "UX/UI Design"
-      ]
+      ],
+      "url": "https://www.thinq.tv/"
     }
   ]
 }
