@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Header from './components/header';
 import Work from './components/work';
+import Education from './components/education';
+import Divider from './components/divider';
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
 
       <div className="mx-auto max-w-7xl pt-20 px-10">
         <Work />
+        <Divider />
+        <Education />
+        <Divider />
       </div>
     </div>
   );
