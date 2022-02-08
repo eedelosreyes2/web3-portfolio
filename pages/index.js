@@ -15,7 +15,10 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Work />
+
+      <div className="mx-auto max-w-7xl">
+        <Work />
+      </div>
 
       <footer className={styles.footer}>
         <a
