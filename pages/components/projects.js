@@ -22,7 +22,10 @@ export default function Projects() {
           <div className="mb-2">{description}</div>
           <div className="flex flex-wrap">
             {skills.map((skill) => (
-              <div className="font-bold text-violet-600 text-sm pr-3">
+              <div
+                key={skill}
+                className="font-bold text-violet-600 text-sm pr-3"
+              >
                 {skill}
               </div>
             ))}

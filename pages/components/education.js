@@ -20,7 +20,9 @@ export default function Education() {
       <div className="font-bold text-2xl pb-2">{degree}</div>
       <div className="flex flex-wrap">
         {courses.map((skill) => (
-          <div className="font-bold text-violet-600 pr-3">{skill}</div>
+          <div key={skill} className="font-bold text-violet-600 pr-3">
+            {skill}
+          </div>
         ))}
       </div>
     </div>

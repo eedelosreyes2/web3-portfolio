@@ -6,7 +6,7 @@ export default function Work() {
       <div className="font-bold">Work Experience</div>
       <hr className="pb-5 w-9" />
       {jobs.map(({ id, company, title, dates, description, skills, url }) => (
-        <div className="pb-10">
+        <div key={id} className="pb-10">
           <div className="flex-column pb-2">
             <div className="flex justify-between items-end">
               <a
@@ -24,7 +24,10 @@ export default function Work() {
           <div className="mb-2">{description}</div>
           <div className="flex flex-wrap">
             {skills.map((skill) => (
-              <div className="font-bold text-violet-600 text-sm pr-3">
+              <div
+                key={skill}
+                className="font-bold text-violet-600 text-sm pr-3"
+              >
                 {skill}
               </div>
             ))}

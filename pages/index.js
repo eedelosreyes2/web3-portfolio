@@ -18,7 +18,6 @@ export default function Home() {
       </Head>
 
       <Header />
-
       <div className="mx-auto max-w-7xl pt-20 px-10">
         <Intro />
         <Web3 />
@@ -32,7 +31,6 @@ export default function Home() {
         <Skills />
         <Divider />
       </div>
-
       <div className="bg-violet-600 h-2"></div>
     </div>
   );
