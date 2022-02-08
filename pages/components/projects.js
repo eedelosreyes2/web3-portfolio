@@ -17,7 +17,6 @@ export default function Projects() {
               >
                 {title}
               </a>
-              <div className="text-sm">{dates}</div>
             </div>
           </div>
           <div className="mb-2">{description}</div>
