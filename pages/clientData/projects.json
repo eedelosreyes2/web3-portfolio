@@ -4,7 +4,7 @@
       "id": 0,
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
-      "description": "Web app...",
+      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
       "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
       "url": "https://eedelosreyes2.github.io/diffusion-pinboard-creator-mvp/"
     },

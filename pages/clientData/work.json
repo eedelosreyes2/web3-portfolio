@@ -5,7 +5,7 @@
       "company": "Robert Half",
       "title": "Full Stack Engineer",
       "dates": "Nov 2020 - Present",
-      "description": "Lorem ipsum temp stuff",
+      "description": "Built and maintained 20 websites across the world through collaboration within the development team. Improved customer experience by launching new features and fixing current issues.",
       "skills": [
         "Javascript",
         "Drupal",
@@ -20,7 +20,7 @@
     {
       "id": 1,
       "company": "Boonoob",
-      "title": "Software Engineer",
+      "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
       "description": "Created REST web API endpoints on the server to handle multiple HTTP requests, done in Node.js. Collaborated with production team to create customer friendly features, increasing the number of users.",
       "skills": [
@@ -38,9 +38,9 @@
     {
       "id": 2,
       "company": "Fanmire",
-      "title": "Software Engineer",
+      "title": "Full Stack Engineer",
       "dates": "Jun - May 2020",
-      "description": "Developed a dynamic website featuring a social media aggregator. This website pulls a user’s posts from Twitter, Facebook, and Instagram, stores data into MongoDB, and displays all onto a single, elegant newsfeed. Developed the software codes for the server database collection and client interface using NodeJS, VueJS, Express, Axios, and HTML/CSS.",
+      "description": "Developed a dynamic website featuring a social media aggregator. This website pulls a user’s posts from Twitter, Facebook, and Instagram, stores data into MongoDB, and displays all onto a single, elegant newsfeed. Developed the server, database collection, and client interface using NodeJS, VueJS, Express, Axios, and HTML/CSS.",
       "skills": [
         "Javascript",
         "HTML/CSS",
