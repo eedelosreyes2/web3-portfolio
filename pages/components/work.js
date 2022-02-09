@@ -7,7 +7,7 @@ export default function Work() {
       {jobs.map(({ id, company, title, dates, description, skills, url }) => (
         <div key={id} className="pb-10">
           <div className="flex-column pb-2">
-            <div className="flex justify-between items-end pb-1">
+            <div className="flex justify-between items-center pb-1">
               <a
                 href={url}
                 target="_blank"
