@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <div>
       <div className="font-bold pb-5">Education</div>
-      <div className="flex justify-between items-end">
+      <div className="flex justify-between items-end pb-1">
         <a
           href={url}
           target="_blank"
