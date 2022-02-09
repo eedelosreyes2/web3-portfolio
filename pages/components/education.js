@@ -4,8 +4,7 @@ export default function Education() {
   const { school, degree, date, courses, url } = education;
   return (
     <div>
-      <div className="font-bold">Education</div>
-      <hr className="pb-5 w-10" />
+      <div className="font-bold pb-5">Education</div>
       <div className="flex justify-between items-end">
         <a
           href={url}

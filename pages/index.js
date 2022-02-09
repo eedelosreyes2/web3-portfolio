@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Header from './components/header';
 import Intro from './components/intro';
 import Projects from './components/projects';
 import Work from './components/work';
@@ -17,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      <div className="mx-auto max-w-7xl pt-20 px-10">
+      <div className="bg-cyan-500 h-2"></div>
+      <div className="mx-auto max-w-xl px-10">
         <Intro />
         <Web3 />
         <Divider />

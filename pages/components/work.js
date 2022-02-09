@@ -3,8 +3,7 @@ import { jobs } from '../clientData/work.json';
 export default function Work() {
   return (
     <div>
-      <div className="font-bold">Work Experience</div>
-      <hr className="pb-5 w-9" />
+      <div className="font-bold pb-5">Work Experience</div>
       {jobs.map(({ id, company, title, dates, description, skills, url }) => (
         <div key={id} className="pb-10">
           <div className="flex-column pb-2">
