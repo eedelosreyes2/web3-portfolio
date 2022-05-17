@@ -11,9 +11,8 @@ export default function Web3() {
       </div>
       <div>
         {contact.map(({ id, platform, url }) => (
-          <div className="inline-block">
+          <div key={id} className="inline-block">
             <a
-              key={id}
               href={url}
               target="_blank"
               rel="noopener noreferrer"
