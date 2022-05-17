@@ -12,7 +12,7 @@ export default function Work() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-cyan-500"
+                className="underline font-bold text-cyan-500"
               >
                 {company}
               </a>

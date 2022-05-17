@@ -2,7 +2,7 @@ import { projects } from '../clientData/projects.json';
 
 export default function Projects() {
   return (
-    <div>
+    <>
       <div className="font-bold pb-5">Projects</div>
       {projects.map(({ id, title, dates, description, skills, url }) => (
         <div key={id} className="pb-10">
@@ -12,7 +12,7 @@ export default function Projects() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-2xl text-cyan-500"
+                className="underline font-bold text-2xl text-cyan-500"
               >
                 {title}
               </a>
@@ -32,6 +32,6 @@ export default function Projects() {
           </div>
         </div>
       ))}
-    </div>
+    </>
   );
 }

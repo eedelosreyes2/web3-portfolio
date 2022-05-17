@@ -16,7 +16,7 @@ export default function Web3() {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-cyan-500 pr-2"
+            className="underline font-bold text-cyan-500 pr-2"
           >
             {platform}
           </a>

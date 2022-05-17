@@ -4,9 +4,10 @@
       "id": 2,
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
-      "description": "Created a web3 discovery web app where you will find companies/platforms in the ecosystem. Whether you are an investor or NFT noob looking for resources, you can filter, search, and view entries from our collection by blockchain or type of company.",
+      "description": "Created a web3 discovery web app where you will find companies and platforms in the ecosystem. Whether you are an investor or NFT noob looking for resources, you can filter, search, and view entries from our collection by blockchain or type of company.",
       "skills": [
         "Javascript",
+        "Typescript",
         "HTML/CSS",
         "Next",
         "Bootstrap",
