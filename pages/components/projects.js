@@ -3,7 +3,7 @@ import { projects } from '../clientData/projects.json';
 export default function Projects() {
   return (
     <div>
-      <div className="font-bold pb-5">Web2 Projects</div>
+      <div className="font-bold pb-5">Projects</div>
       {projects.map(({ id, title, dates, description, skills, url }) => (
         <div key={id} className="pb-10">
           <div className="flex-column pb-2">
@@ -16,6 +16,7 @@ export default function Projects() {
               >
                 {title}
               </a>
+              <div className="text-sm">{dates}</div>
             </div>
           </div>
           <div className="mb-2">{description}</div>

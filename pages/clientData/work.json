@@ -6,15 +6,7 @@
       "title": "Full Stack Engineer",
       "dates": "Nov 2020 - Present",
       "description": "Built and maintained 20 websites across the world through collaboration within the development team. Improved customer experience by launching new features and fixing current issues.",
-      "skills": [
-        "Javascript",
-        "Drupal",
-        "PHP",
-        "React",
-        "Postman",
-        "Fullstack",
-        "Production"
-      ],
+      "skills": ["Javascript", "Drupal", "PHP", "Java", "React", "Fullstack"],
       "url": "https://roberthalf.com/"
     },
     {
@@ -30,8 +22,7 @@
         "Stripe",
         "MongoDB",
         "Postman",
-        "Backend",
-        "Production"
+        "Backend"
       ],
       "url": "https://boonoob.com/"
     },
