@@ -1,20 +1,45 @@
 {
   "projects": [
     {
-      "id": 0,
-      "title": "Diffusion Board Creator",
-      "dates": "May - Aug 2021",
-      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
-      "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
-      "url": "https://eedelosreyes2.github.io/diffusion-pinboard-creator-mvp/"
+      "id": 2,
+      "title": "Web3 Discovery",
+      "dates": "Apr - May 2022",
+      "description": "Created a web3 discovery web app where you will find companies/platforms in the ecosystem. Whether you are an investor or NFT noob looking for resources, you can filter, search, and view entries from our collection by blockchain or type of company.",
+      "skills": [
+        "Javascript",
+        "HTML/CSS",
+        "Next",
+        "Bootstrap",
+        "Prisma",
+        "Postgres",
+        "Heroku",
+        "Node"
+      ],
+      "url": "https://diffusion-pinboard-creator-mvp.vercel.app"
     },
     {
       "id": 1,
-      "title": "Twitter React App v1.0",
+      "title": "Diffusion Board Creator",
+      "dates": "May - Aug 2021",
+      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
+      "skills": [
+        "Javascript",
+        "HTML/CSS",
+        "React",
+        "Node",
+        "Bootstrap",
+        "Firebase",
+        "Google Cloud"
+      ],
+      "url": "https://diffusion-pinboard-creator-mvp.vercel.app"
+    },
+    {
+      "id": 0,
+      "title": "Twitter React App v1.1",
       "dates": "July - Sep 2020",
       "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
-      "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
-      "url": "https://eedelosreyes2.github.io/twitter-react/"
+      "skills": ["Javascript", "HTML/CSS", "React", "Node", "Bootstrap"],
+      "url": "https://twitter-react-eli.vercel.app"
     }
   ]
 }
