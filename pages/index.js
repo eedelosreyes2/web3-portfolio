@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Intro from './components/intro';
 import Projects from './components/projects';
 import Work from './components/work';
-import Education from './components/education';
 import Skills from './components/skills';
 import Web3 from './components/web3';
 import Divider from './components/divider';
@@ -24,8 +23,6 @@ export default function Home() {
         <Projects />
         <Divider />
         <Work />
-        <Divider />
-        <Education />
         <Divider />
         <Skills />
         <Divider />
